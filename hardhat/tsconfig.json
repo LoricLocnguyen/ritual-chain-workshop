@@ -5,7 +5,8 @@
     "target": "es2023",
     "skipLibCheck": true,
     "outDir": "dist",
-    "types": ["node"],
+    "types": ["node", "mocha", "chai"],
     "verbatimModuleSyntax": true
-  }
+  },
+  "include": ["./test/**/*.ts", "./hardhat.config.ts"]
 }
